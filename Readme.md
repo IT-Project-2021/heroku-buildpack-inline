@@ -1,4 +1,9 @@
-# Heroku Buildpack: Inline
+# Heroku Buildpack for MyDailyPlanner
+This is a buildpack for heroku in order to deploy API documentation that is a subfolder of an existing repository.
+
+This repository was forked from https://github.com/heroku/heroku-buildpack-inline.git and the code is from https://jtway.co/deploying-subdirectory-projects-to-heroku-f31ed65f3f2.
+
+## Heroku Buildpack: Inline
 
 This is a [Heroku buildpack][buildpack] for Heroku apps that
 wish to build themselves.
@@ -13,7 +18,7 @@ Thus, an app serves as its own buildpack.
 
 Phil Hagelberg originated this lovely idea.
 
-## Usage
+### Usage
 
     $ find . -type f -print
     ./bin/compile

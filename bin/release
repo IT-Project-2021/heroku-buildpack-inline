@@ -1,3 +1,5 @@
-#!/bin/sh
-# Usage: bin/release <build-dir>
-exec "$1"/bin/release "$@"
+#!/usr/bin/env bash
+
+# used for inline heroku buildpack
+
+echo "--- {}"
